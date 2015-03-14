@@ -9,3 +9,55 @@ Date Created: 9/3/2014
 Date Modified: 9/3/2014
 Notes: Main palette: #A7AABF, #6F727F, #383940, #DADFFA, #9194A6
 */
+
+@font-face { font-family: Snell; src: url('fonts/SnellRoundhandScript.ttf'); }
+
+html, body {
+	background-color: #333;
+	color: #DDD;
+}
+
+#header .jumbotron, #header .col-xs-12 {
+	background-color: #111;
+}
+
+#headerimg {
+	width: 80%;
+	height: auto;
+	max-width: 1000px;
+}
+
+#header .jumbotron {
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	font-family: Snell;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+#header .col-xs-12 {
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+#featuredCarousel {
+	 height: 400px;
+	 min-height: 400px;
+}
+
+#featuredCarousel .carousel-inner .item img {
+	height: 400px;
+	max-height: 400px;
+	width: auto;
+}
+
+/*#featuredCarousel .carousel-control {
+	background-image: none;	
+}
+
+#featuredCarousel .carousel-inner {
+	margin-left: 15%;
+	margin-right: 15%;
+}*/
